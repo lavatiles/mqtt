@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mqtt:
+    image: toke/mosquitto
+    ports:
+      - 1883:1883
+    restart: on-failure

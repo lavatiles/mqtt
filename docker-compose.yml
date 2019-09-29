@@ -7,5 +7,3 @@ services:
       - 1883:1883
     restart: on-failure
     user: mosquitto
-    volumes:
-      - ./config:/mosquitto/config

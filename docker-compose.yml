@@ -7,4 +7,4 @@ services:
       - 1883:1883
     restart: on-failure
     volumes:
-      - ./config:/mqtt/config
+      - ./config:/mosquitto/config
